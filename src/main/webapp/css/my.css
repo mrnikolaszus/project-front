@@ -1,5 +1,147 @@
-th, td {
-    border: 1px solid burlywood;
-    padding: 10px;
+body {
+    margin: 0;
+    font-family: "Book Antiqua";
+    font-size: 18px;
+    background-image:url("../img/img.png");
+
 }
+
+.page {
+    width: 1000px;
+    margin: 20px auto;
+    background-image:url("../img/img_1.png");
+
+}
+
+.header{
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 20px;
+
+}
+
+.nav{
+    border: 2px solid black;
+    border-radius: 5px;
+
+    margin: 1px;
+    display: flex;
+
+}
+
+.page_counter{
+    margin: 5px 100px 5px 100px;
+    width: 500px;
+}
+
+.sidebar_left{
+    margin: 5px 100px 5px 100px;
+
+    width: 500px;
+}
+.space{
+    padding-top: 5px;
+    background: inherit;
+}
+
+.header_new_char{
+    text-align: center;
+    margin: 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.new_char{
+    height: 50px;
+    margin: 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+
+}
+
+.new_char_one{
+    margin: 1px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: end;
+
+
+}
+.new_char_two{
+    margin: 1px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: end;
+
+
+}
+.new_char_three{
+    margin: 1px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: end;
+
+
+}
+.new_char_four{
+    margin: 1px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: end;
+
+
+}
+.but{
+    margin: 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header-title{
+    margin: 1px;
+    font-size: 24px;
+
+    text-align: center;
+}
+input {
+    width: 90px;
+}
+
+.header-subtitle{
+    margin: 1px;
+    font-size: 16px;
+    color: darkblue;
+    text-align: center;
+}
+
+.table_tab {
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+
+th {
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+
 
